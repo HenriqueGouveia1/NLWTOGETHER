@@ -33,5 +33,6 @@ class AuthenticaticateUserService{
             expiresIn: "1d"
         } 
         )
+        return token;
     }
 }export{AuthenticaticateUserService}
